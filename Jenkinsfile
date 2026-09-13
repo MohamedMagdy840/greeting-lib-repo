@@ -6,7 +6,7 @@ pipeline {
         stage('Send Greeting') {
             steps {
                 // Call the shared library function
-                greet('You are doing great, keep learning!')
+                greet('')
             }
         }
     }
